@@ -1,0 +1,27 @@
+{
+  "name": "sandbox-phantomcss",
+  "version": "1.0.0",
+  "description": "Sandbox for PhantomCSS",
+  "private": true,
+  "scripts": {
+    "test": "cd phantom-css && casperjs test ../index_html_test.js && cd ../",
+    "demo": "cd phantom-css && casperjs test demo/testsuite.js && cd ../"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kubosho/sandbox-phantomcss.git"
+  },
+  "keywords": [
+    "PhantomCSS",
+    "Sandbox"
+  ],
+  "author": "kubosho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kubosho/sandbox-phantomcss/issues"
+  },
+  "homepage": "https://github.com/kubosho/sandbox-phantomcss#readme",
+  "devDependencies": {
+    "spooky": "^0.2.5"
+  }
+}
